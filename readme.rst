@@ -63,11 +63,10 @@ Report security issues to our `Security Panel <mailto:security@codeigniter.com>`
 or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
 
 ***************
-
-https://drive.google.com/file/d/1n5ZB2TNsXxKOt9qwly7oAsV5nt5tDvkM/view?usp=sharing
 Acknowledgement
 ***************
 
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
-https://drive.google.com/file/d/1n5ZB2TNsXxKOt9qwly7oAsV5nt5tDvkM/view?usp=sharing
+![Alt text](https://drive.google.com/file/d/1n5ZB2TNsXxKOt9qwly7oAsV5nt5tDvkM/view?usp=sharing "Order Management")
+
