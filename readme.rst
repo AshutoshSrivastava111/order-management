@@ -1,4 +1,3 @@
-![image_screen](https://github.com/AshutoshSrivastava111/order-management/assets/18185747/4fcb6885-0028-4e62-b78c-00a7195abbb9)
 ###################
 What is CodeIgniter
 ###################
@@ -70,6 +69,6 @@ Acknowledgement
 The CodeIgniter team would like to thank EllisLab, all the
 contributors to the CodeIgniter project and you, the CodeIgniter user.
 
-![image_screen](https://github.com/AshutoshSrivastava111/order-management/assets/18185747/f47b7393-c787-4d34-8522-e879739682d6)
+![image_screen](https://github.com/AshutoshSrivastava111/order-management/assets/18185747/4fcb6885-0028-4e62-b78c-00a7195abbb9)
 
 
