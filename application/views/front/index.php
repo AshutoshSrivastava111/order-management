@@ -41,7 +41,7 @@
 			<div class="col-md-4">
 	<div class="form-group">
 	<label>Phone</label>
-		<input  type="text" class="form-control"  name="phone" >
+		<input  type="text" class="form-control"  required name="phone" >
 		</div>
 		
 		</div>
@@ -72,7 +72,9 @@
         <tr>
            
             <td>
+			<span>
                 1
+				</span>
             </td>
 			 <td>
                 <input type="text" name="name[]"  class="form-control"/>
@@ -151,7 +153,7 @@ $(document).ready(function () {
         var newRow = $("<tr>");
         var cols = "";
         
-		cols += '<td>'+counter+ '</td>';	
+		cols += '<td><span>'+counter+ '</span></td>';	
 		cols += '<td> <input type="text" name="name[]" required class="form-control" /></td>';	
         cols += '<td><input type="text" name="quantity[]" required  class="form-control  CalcQty'+counter+'" value="0"/></td>';
 		cols += '<td> <input type="text" name="rate[]" required class="form-control  CalcRate'+counter+'" value="0"/></td>';
@@ -166,7 +168,7 @@ $(document).ready(function () {
     });
 	
 	
- $("table.order-list").on("change", 'input[name^="quantity[]"],input[name^="rate[]"]', function (event) {
+ $("table.order-list").on("keyup", 'input[name^="quantity[]"],input[name^="rate[]"]', function (event) {
         calculateRow($(this).closest("tr"));
 		
 		//findeforeverygst();
@@ -183,12 +185,29 @@ $(document).ready(function () {
 	
         counter -= 1
 		calculateGrandTotal();
+		
+		reset_counter();
     });
 
 	
 
 
 });
+
+function reset_counter(){
+	var counter = 0;
+	
+	 $("table.order-list").find('input[name^="amount"]').each(function () {
+		 //alert("hi");
+		 counter = counter + 1;
+		 $(this).closest("tr")
+            .find("span").text( counter );
+            
+       
+    });
+	
+	
+}
 
 
 
